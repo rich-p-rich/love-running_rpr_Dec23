@@ -1,3 +1,6 @@
+/* Added Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
     padding: 0;
@@ -5,6 +8,17 @@
     box-sizing: border-box;
 
 }
+
+/*General styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /*generic project styles */
+    color: #3a3a3a;
+    font-family: 'Lato', sans-serif;
+}
+
 
 /* Header */
 header {
@@ -14,6 +28,9 @@ header {
 /* Main content*/
 main {
     background-color: lightblue;
+    /* Main main element take up any surplus space to push footer down*/
+    flex: 1 0 auto;
+
 }
 
 /*Footer */
