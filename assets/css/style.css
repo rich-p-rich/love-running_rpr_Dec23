@@ -106,7 +106,7 @@ main {
 }
 
 #cover-text {
-    /* Final rgba value sets the opacuty so it is semu-transparent */
+    /* Final rgba value sets the opacuty so it is semi-transparent */
     background-color: rgba(241, 109, 107, .7);
     font-size: 130%;
     position: absolute;
@@ -120,6 +120,32 @@ main {
 #cover-text>h2,
 #cover-text>h3 {
     color: #ffffff;
+}
+
+#reasons {
+    width: 90%;
+    margin: 20px auto;
+}
+
+#reasons h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 280%;
+}
+
+#benefits-physical>div,
+#benefits-mental>div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#benefits p {
+    padding: 0 20px;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
 }
 
 /*Footer */
@@ -174,11 +200,12 @@ main {
         margin-top: 79px;
     }
 }
-    /* Hero */
-    #cover-text {
-        width: 300px;
-        right: 50px;
-    }
+
+/* Hero */
+#cover-text {
+    width: 300px;
+    right: 50px;
+}
 
 
 
