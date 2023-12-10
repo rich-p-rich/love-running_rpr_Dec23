@@ -109,7 +109,7 @@ main {
 }
 
 #cover-text {
-    /* Final rgba value sets the opacuty so it is semi-transparent */
+    /* Final rgba value sets the opacity so it is semi-transparent */
     background-color: rgba(241, 109, 107, .7);
     font-size: 130%;
     position: absolute;
@@ -117,7 +117,7 @@ main {
     width: 80%;
     min-height: 200px;
     padding-top: 40px;
-    padding-left: 40px;
+    padding-left: 20px;
 }
 
 #cover-text>h2,
@@ -170,7 +170,7 @@ hr {
     margin: 5px 0;
 }
 
-/*Meetup Times secion */
+/*Meetup Times section */
 
 #times {
     background: url("../images/dublin-city.webp") no-repeat center center / cover;
